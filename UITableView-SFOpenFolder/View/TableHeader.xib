@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableHeader" id="VxZ-dJ-v2X" customClass="TableHeader">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VxZ-dJ-v2X" id="BWs-ka-x3E">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHb-UQ-6bD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vHb-UQ-6bD" firstAttribute="top" secondItem="BWs-ka-x3E" secondAttribute="top" id="BKy-VP-LZR"/>
+                    <constraint firstAttribute="bottom" secondItem="vHb-UQ-6bD" secondAttribute="bottom" id="ZDQ-nC-ZUE"/>
+                    <constraint firstAttribute="trailing" secondItem="vHb-UQ-6bD" secondAttribute="trailing" id="bWr-Tu-u8D"/>
+                    <constraint firstItem="vHb-UQ-6bD" firstAttribute="leading" secondItem="BWs-ka-x3E" secondAttribute="leading" id="kLl-rH-GGY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="button" destination="vHb-UQ-6bD" id="kNS-MW-24v"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="119"/>
+        </tableViewCell>
+    </objects>
+</document>
